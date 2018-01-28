@@ -1,0 +1,6 @@
+[href] { font-size: 30px; }
+
+[name]  { color: red; }
+[name="loisir"] { color: purple; }
+
+[name="rouge"] { color: red; }

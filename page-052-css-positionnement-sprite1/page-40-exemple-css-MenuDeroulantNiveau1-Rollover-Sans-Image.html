@@ -1,0 +1,176 @@
+﻿<!DOCtype html>
+<html lang='fr-FR'>
+	<head>
+		<title> Bienvenue sur ma page WEB !!! </title>
+		<meta name="Description" content="Description du site " >
+		<meta charset="utf-8" >  <!-- en html5 -->
+		<link rel="icon" type="image/ico" href="favicon.ico" >
+		<meta name="author" content="Boris, WebAgence" >
+		<meta name="signet:authors" content="Boris, WebAgence">
+		<meta name="robots" content="index, follow" >
+		<meta name="keywords" lang="en-us" content="vacation, greece, sunshine"> <!-- for speakers of us english -->
+		
+		<style> 
+		
+		/* MINI RESET CSS */
+		
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center, dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section, summary,
+		time, mark, audio, video {
+			margin:0;
+			padding:0;
+			border:0;
+			outline:0;
+			font-size:100%;
+			font:inherit;
+			vertical-align:baseline;
+		}
+		
+		/* GABARIT CSS */
+		
+		body { background-color:lightblue; } 
+		#contenu { width:960px; margin:0 auto; background-color:#FFFFFF; }  /*centrage*/
+		
+		header { background-color:#0C6EE8; width:960px; height:100px; }
+		hgroup { height:50px; }
+		hgroup h1 { width:50px; margin:0 auto; } /*centrage*/
+		hgroup h2 { width:100px; margin:0 auto; } /*centrage*/
+		nav { background-color:#FFFFFF; display:block; width:960px; height:25px; }
+		aside { background-color:#00B5FF; display:block; width:960px; height:20px; }
+		aside menu { width:120px; margin:0 auto; } /*centrage*/
+		section { background-color:#0CE2E8; width:960px; padding:0px; } /* pas de height */
+		section article { background-color:#0CE2E6; width:960px; } /* pas de height */
+		section article header { background-color:#0CE2E4; width:100px; height:20px; margin:0 auto; } /*centrage*/
+		section article footer{ background-color:#0CE2E2; width:400px; height:20px; }
+		footer { background-color:#0DFFC1; height:50px; }
+		footer p { background-color:#0DFFC1; width:300px; height:50px; margin:0 auto; } /*centrage*/
+		
+		
+		/*********** Menu deroulant ***********/
+		
+		/* #MenuDeroulant1 { background-color:#fff; width:560px; margin:0 auto; padding:0px; } */
+		
+		#MenuDeroulant1 > ul#MenuNiveu1 {  background-color:fff; width:560px; margin:0 auto; padding:0px; } /*centrage*/
+		
+		
+		
+		
+		
+		/* IMPORTANT : pour cacher toutes les puces de niveau 1, 2, 3 */
+		
+		#MenuDeroulant1 ul { list-style:none; } /* pour cacher les puces list-style:none; ou list-style-type:none; */
+		
+		
+		
+		
+		
+		/***** Menu niveau 1 *****/
+		
+		#MenuDeroulant1 ul#MenuNiveu1 > li { 
+			float:left;  /* IMPORTANT : pour aligner */
+			
+			/* background-image:url("./image1.jpg");*/
+			background-color:#E0E0E0; 
+			width:110px; /* attention lien(100px) + padding(10px) = 120px*/
+			height:25px; 
+			padding:0px;
+			margin:0px; 
+			}
+
+		#MenuDeroulant1 > ul#MenuNiveu1 > li:first-child { border:0px; }
+		#MenuDeroulant1 > ul#MenuNiveu1 > li:nth-child(n+2) { border-left:2px solid #444; }
+		
+		
+		/**** Menu lien *****/
+		#MenuDeroulant1 a { 
+			/* background-image:url("./image1.jpg");*/
+			background-color:#E0E0E0; 
+			color:#FF0000; 
+			font-family:"Times New Roman", Georgia, Serif;
+			text-decoration:none; 
+			
+			display:block; 
+			
+			width:100px; 
+			height:25px; 
+			padding:0px 0px 0px 10px;
+			margin:0px; 
+			}
+			
+		#MenuDeroulant1 a:hover {     /* pour le survole (roll-over)*/
+			/* background-image:url("./image1.jpg");*/
+			background-color:#EEEEEE; 
+			color:#00FF00; 
+			border-bottom:2px solid #444;
+			}
+
+		</style>
+	</head>	
+
+	<body>  <!-- description:-->
+		<div id="contenu">  <!-- description:-->
+		<noscript> JAVASCRIPT est désactivé dans votre navigateur ! </noscript>
+			<header> <hgroup> <h1> TITRE  </h1> <h2> SOUS - TITRE  </h2> </hgroup> </header>
+			
+			<nav>
+				<menu id='MenuDeroulant1'> 
+					<ul id='MenuNiveu1'>
+						<li> <a href="#">Acceuil</a> </li>
+						<li> <a href="#">Presentation</a> </li>
+						<li> <a href="#">Galerie1</a> </li>
+						<li> <a href="#">Catalogue</a> </li>
+						<li> <a href="#">Contact</a> </li>
+					</ul>
+				</menu> 
+			</nav>
+			
+			<aside> <menu> <a href="#">Lien</a> | <a href="#">Lien</a> | <a href="#">Lien</a> </menu> </aside>
+			
+			<section>
+				<article>
+					<header> <h1> TITRE:PAGE </h1> </header>
+					<p> 
+					
+						Lorem ipsum:
+						
+						Tu vois, ce n'est pas un simple sport car là, 
+						j'ai un chien en ce moment à côté de moi et je le caresse, 
+						et ça, c'est très dur, et, et, et... 
+						c'est très facile en même temps. 
+						Pour te dire comme on a beaucoup à apprendre sur la vie !
+
+						Je me souviens en fait, je suis mon meilleur modèle 
+						car il y a de bonnes règles, de bonnes rules 
+						et c'est une sensation réelle qui se produit si on veut ! 
+						Et j'ai toujours grandi parmi les chiens.
+
+						You see, ce n'est pas un simple sport car en vérité, la vérité, 
+						il n'y a pas de vérité et c'est très, très beau d'avoir son propre moi-même ! 
+						C'est cette année que j'ai eu la révélation !
+
+						Oui alors écoute moi, je suis mon meilleur modèle 
+						car il y a de bonnes règles, de bonnes rules 
+						et cette officialité peut vraiment retarder ce qui devrait devenir... 
+						Et tu as envie de le dire au monde entier, including yourself.
+
+						Si je t'emmerde, tu me le dis, tu vois au passage qu'il n'y a rien de concret 
+						car c'est juste une question d'awareness car l'aboutissement de l'instinct, 
+						c'est l'amour ! Il y a un an, je t'aurais parlé de mes muscles.
+
+					</p>
+					<footer><h3> Nom de l'auteur,  Date </h3></footer>
+				</article>
+			</section>
+			
+			<footer> <p> Nom, Adresse, Code, Ville, Telephone, Mail </p> </footer>
+		</div>
+	</body>
+</html>

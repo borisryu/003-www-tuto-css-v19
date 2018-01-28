@@ -1,0 +1,80 @@
+﻿<!DOCtype html>
+<html lang='fr-FR'>
+	<head>
+		<title> Bienvenue sur ma page WEB !!! </title>
+		<meta name="Description" content="Description du site " >
+		<meta charset="utf-8" >  <!-- en html5 -->
+		<style type="text/css">
+
+			
+			/*
+
+				Pour placer des blocs côte-à-côte: propriété float
+
+				La plupart du temps, pour créer des «colonnes» 
+				ou simplement placer deux blocs côte-à-côte 
+				on utilisera le positionnement flottant. 
+				
+				L'emplacement de la boîte est déterminé par les propriétés 'left' ou 'right'.
+
+				*/
+			
+			.parent1 {
+					margin:0 auto;
+					height: 550px;
+					background-color: yellow;
+			}
+			.frere1 {
+					float: left;
+					
+					width: 300px;
+					height: 130px;
+					margin:1px;
+					padding:1px;
+					background-color: blue;
+					
+			}
+			.frere2 { 
+					float: left;
+					
+					width: 300px;
+					height: 130px;
+					margin:1px;
+					padding:1px;
+					background-color: white;
+					
+					margin-left:0px;
+					margin-right:0px;
+					
+					clear:left;
+
+			}
+			.frere3 {
+					float: left;
+					
+					width: 300px;
+					height: 130px;
+					margin:1px;
+					padding:1px;
+					background-color: red;
+			}
+			
+
+	  </style>
+ </head>
+ <body>
+			 <div class="parent1">
+				 <div class="frere1">
+									frere1 
+				 </div>
+				 <div class="frere2">
+									frere2 
+				 </div>
+				 <div class="frere3">
+									.frere3 
+				 </div>
+			 </div>
+
+
+ </body>
+</html>

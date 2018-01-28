@@ -1,0 +1,207 @@
+﻿<!DOCtype html>
+<html lang='fr-FR'>
+	<head>
+		<title> Bienvenue sur ma page WEB !!! </title>
+		<meta name="Description" content="Description du site " >
+		<meta charset="utf-8" >  <!-- en html5 -->
+		
+		<link rel="stylesheet" type="text/css" href="./reset-css.css" >
+		
+		<style type="text/css"> 
+		
+			<!--
+				
+			/* **************** Reset CSS : ***************** */
+				
+				html, body, div, span, applet, object, iframe,
+				h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+				a, abbr, acronym, address, big, cite, code,
+				del, dfn, em, img, ins, kbd, q, s, samp,
+				small, strike, strong, sub, sup, tt, var,
+				b, u, i, center,
+				dl, dt, dd, ol, ul, li,
+				fieldset, form, label, legend,
+				table, caption, tbody, tfoot, thead, tr, th, td,
+				article, aside, canvas, details, embed, 
+				figure, figcaption, footer, header, hgroup, 
+				menu, nav, output, ruby, section, summary,
+				time, mark, audio, video {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					font-size: 100%;
+					font: inherit;
+					vertical-align: baseline;
+				}
+				/* HTML5 display-role reset for older browsers */
+				article, aside, details, figcaption, figure, 
+				footer, header, hgroup, menu, nav, section {
+					display: block;
+				}
+				body {
+					line-height: 1;
+				}
+				ol, ul {
+					list-style: none;
+				}
+				blockquote, q {
+					quotes: none;
+				}
+				blockquote:before, blockquote:after,
+				q:before, q:after {
+					content: '';
+					content: none;
+				}
+				table {
+					border-collapse: collapse;
+					border-spacing: 0;
+				}				
+				
+			/* **************** Fin reset CSS : ***************** */
+
+			/* **************** CSS perso : ***************** */
+
+				body { 
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					font-size: 100%;
+					line-height: 1em;
+					}
+				
+				.ClassConteneur {
+				
+					margin: 0 auto;      /* pour centrer */
+					width: 960px;        /* pour centrer */
+					
+					overflow: hidden;    /* pas de dépassement */
+					
+					background-color:#FFDA8C;
+					}
+				
+				.ClassHeader {
+				
+					float:left;
+					width: 100%;        /* par défaut 100% */
+					height: 100px;
+					
+					overflow: hidden;   /* pas de dépassement */
+					
+					background-color: #8CC6D7;
+					}
+				
+				.ClassMenuHaut {
+				
+					float:left;
+					width: 100%;        /* par défaut 100% */
+					height: 50px;
+					
+					overflow: hidden;   /* pas de dépassement */
+					
+					background-color:#8FCF3C;
+					}
+				
+				.ClassMenuHaut ul { 
+				
+					margin: 0 auto;      /* pour centrer */
+					width: 200px;        /* pour centrer */
+					
+					}
+				
+				.ClassMenuHaut ul li { 
+					display:inline;      /* liste en horrizontal */
+					margin: 0 5px;
+					}
+				
+				.ClassCentre {
+				
+					float:left;
+					width: 64%;          /* ou dimension en pixel */
+					height: 400px;
+					
+					overflow: hidden;    /* pas de dépassement */
+					
+					background-color:#B1221C;
+					}
+				
+				.ClassMenuGauche {
+				
+					float:left;
+					width: 18%;      /* ou dimension en pixel */
+					
+					/* height ------ s'ajuste automatiquement */
+					
+					overflow: hidden;   /* pas de dépassement */
+					
+					background-color:#FF5B2B;
+					}
+				
+				.ClassMenuDroit {
+				
+					float:left;
+					width: 18%;       /* ou dimension en pixel */
+					
+					/* height ------  s'ajuste automatiquement */
+					
+					overflow: hidden;    /* pas de dépassement */
+					
+					background-color:#FF5B2B;
+					}
+				
+				.ClassFooter {
+				
+					float:left;
+					width: 100%;
+					height: 75px;
+					
+					overflow: hidden;    /* pas de dépassement */
+					
+					background-color: #8CC6D7;
+					}
+					
+			-->	
+		</style>
+	</head>
+	<body>
+
+		<div class="ClassConteneur">
+		
+			<header class="ClassHeader"> <h1>1e bloc) Header</h1> </header>
+			
+			<nav class="ClassMenuHaut">
+				<div>2e bloc) menu Haut :</div>
+				<ul>
+					<li><a href="#">Menu 1</a></li>
+					<li><a href="#">Menu 2</a></li>
+					<li><a href="#">Menu 3</a></li>
+				</ul>
+			</nav>
+			
+			<aside class="ClassMenuDroit">
+				<div>3e bloc) menu Droit :</div>
+				<ul>
+					<li><a href="#">Menu 1</a></li>
+					<li><a href="#">Menu 2</a></li>
+					<li><a href="#">Menu 3</a></li>
+				</ul>
+			</aside>
+
+			<main class="ClassCentre">
+				<h2>4e bloc) Centre : Lorem Ipsum :</h2>
+				<p> Le Lorem Ipsum est simplement du faux texte</p> 
+			</main>
+			
+			<aside class="ClassMenuGauche">
+				<div>5e bloc) menu Gauche :</div>
+				<ul>
+					<li><a href="#">Menu 1</a></li>
+					<li><a href="#">Menu 2</a></li>
+					<li><a href="#">Menu 3</a></li>
+				</ul>
+			</aside>
+			
+			<footer class="ClassFooter"> <address>6e bloc) Adresse...</address> </footer>
+			
+		</div>
+	</body>
+</html>

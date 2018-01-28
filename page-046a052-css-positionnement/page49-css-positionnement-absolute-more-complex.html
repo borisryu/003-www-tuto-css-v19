@@ -1,0 +1,121 @@
+﻿<!DOCtype html>
+<html lang='fr-FR'>
+	<head>
+		<title> Bienvenue sur ma page WEB !!! </title>
+		<meta name="Description" content="Description du site " >
+		<meta charset="utf-8" >  <!-- en html5 -->
+  <style type="text/css">
+	<!--
+	
+	/*
+
+		Positionnement absolu
+
+		Pour commencer, on n'utilisera le positionnement absolu que dans les conditions suivantes: 
+		
+			1) si on sait comment faire pour positionner un élément en absolu par rapport à son parent ou ancêtre positionné 
+			
+			2) si on a une idée précise des conséquences du positionnement absolu (risque de chevauchement des contenus); 
+			
+			3) si on sait à l'avance quels sont les contenus qui seront ainsi positionnés, 
+			et si ces contenus ne risquent pas de prendre de l'ampleur et ainsi de déborder de l'espace défini.
+
+		Une fois ces précautions bien intégrées, 
+		on pourra utiliser le positionnement absolu de manière efficace pour quelques éléments de nos pages web.
+		
+		L'emplacement de la boîte est déterminé par les propriétés 'left', 'right', 'top', et 'bottom'.
+
+*/
+	
+    .arriere-ancetre {
+			width: 800px;
+			height: 800px;
+			margin: 0 auto;  /* ************************* permet de centrer ce bloc ************************* */
+			background-color: green;
+    }
+    .ancetre0 {
+			width: 700px;
+			height: 700px;
+			background-color: yellow;
+			position: static;
+    }
+    .parent1 {
+			width: 550px;
+			height: 550px;
+			background-color: blue;
+			position: absolute; /* ************************* TEST de la position absolue************************* */
+			top: 100px;
+			left: 100px;
+    }
+    .frere1 {
+			width: 130px;
+			height: 130px;
+			background-color: #535;
+    }
+    .frere2 { 
+			width: 130px;
+			height: 130px;
+			background-color: red;
+			position: absolute; /* ce positonne par rapport au dernier element parent positionne en "relative" ou "absolute" */
+			top: 100px;
+			left: 100px;
+    }
+    .frere3 {
+			width: 130px;
+			height: 130px;
+			background-color: #515;
+    }
+	
+	-->
+  </style>
+ </head>
+ <body>
+   <div class="arriere-ancetre">
+								.arriere-ancetre {
+													width: 800px;
+													height: 800px;
+													margin: 0 auto;
+													background-color: green;
+												}
+		 <div class="ancetre0">
+								.ancetre0 {
+											width: 700px;
+											height: 700px;
+											background-color: yellow;
+											position: static;
+										}
+			 <div class="parent1">
+								.parent1 {
+											width: 550px;
+											height: 550px;
+											background-color: blue;
+											position: absolute; 
+											top: 100px;
+											left: 100px;
+										}
+				 <div class="frere1">
+									.frere1 {
+											width: 130px;
+											height: 130px;
+											background-color: #535;
+											}
+				 </div>
+				 <div class="frere2">
+									.frere2 {
+												width: 130px;
+												height: 130px;
+												background-color: red;
+												}
+				 </div>
+				 <div class="frere3">
+									.frere3 {
+											width: 130px;
+											height: 130px;
+											background-color: #515;
+											}
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+ </body>
+</html>

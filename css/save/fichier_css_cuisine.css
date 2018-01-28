@@ -1,0 +1,35 @@
+﻿/* auteur : Boris Agence */
+/* date de creation : 2015.12.11*/
+/* auteur de la modification : */
+/* date de modification : */
+
+@charset "UTF-8";
+
+
+html, body { font-size : 1em; line-height : 100%; }
+
+a:hover { color: green; }          /* Lien survolé ou ayant le focus */
+a:active { background-color: yellow; }        /* Lien actif (état cliqué) */
+a:visited { background-color: pink; color: red;}         /* Lien visité */
+
+h2 {
+	background: #112233 url('./images/image.png') no-repeat top left;
+
+	width:300px;
+	height:50px;
+
+	color : #ffffff;
+	font-size : 1.5em;
+	line-height : 1.8em;
+	font-family: vivaldi ,arial,serif;
+	font-style : normal;
+	font-weight : bold;
+	text-decoration : underline;
+	text-transform : uppercase;
+	
+}
+
+img {
+	width:500px;
+	height:500px;
+}

@@ -1,0 +1,255 @@
+﻿<!DOCtype html>
+<html lang='fr-FR'>
+	<head>
+		<title> Bienvenue sur ma page WEB !!! </title>
+		<meta name="Description" content="Description du site " >
+		<meta charset="utf-8" >  <!-- en html5 -->
+		<!-- <meta http-equiv="content-type" content="text/html; charset=utf-8"> en html4 -->
+		<link rel="icon" type="image/ico" href="favicon.ico" >
+		<!-- <link rel="icon" type="image/png" href="favicon32x32px.png" > -->
+		<meta name="author" content="Boris, WebAgence" >
+		<meta name="signet:authors" content="Boris, WebAgence">
+		<!-- pas en html5 --> <!-- <meta http-equiv="reply-to" content="borisryu@dom1.com" > --> 
+		<!-- pas en html5 --> <!-- <meta name="copyright" content="© date Compagnie" > --> 
+		<!-- pas en html5 --> <!-- <meta name="copyright" content="&copy; date Compagnie" > -->
+		<meta name="robots" content="index,follow" >
+		<meta name="keywords" lang="en-us" content="vacation, greece, sunshine"> <!-- for speakers of us english -->
+		<meta name="keywords" lang="en" content="holiday, greece, sunshine"> <!-- for speakers of british english -->
+		<meta name="keywords" lang="fr" content="vacances, gr&egrave;ce, soleil"> <!-- for speakers of french -->
+		<!-- <meta http-equiv="content-language" content="fr"> en html4 -->
+		<!-- <html lang='fr-fr'> en html5 -->
+		<meta http-equiv="refresh" content="300">
+		<!-- pas en html5 --> <!-- <meta http-equiv="expires" content="600"> --> 
+		<!-- pas en html5 --> <!-- <meta http-equiv="expires" content="tue, 20 aug 1996 14:25:27 gmt"> --> 
+		<!-- pas en html5 --> <!-- <meta http-equiv="last-modified" content="thu, 14 apr 2011 12:17:27 gmt"> -->
+			<!-- 
+				Commentaire : 
+			-->
+		<!--[if lt IE 8]>
+			header, hgroup, nav, section, article, aside, footer { display: block;}
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style type="text/css">
+			div { opacity: 0.7; font: 12px Arial;}
+			span.bold { font-weight: bold; }
+			#normdiv {
+			z-index: 8;
+			height: 70px;
+			border: 1px dashed #999966;
+			background-color: #ffffcc;
+			margin: 0px 50px 0px 50px;
+			text-align: center;
+			}
+			#reldiv1 {
+			z-index: 3;
+			height: 100px;
+			position: relative;
+			top: 30px;
+			border: 1px dashed #669966;
+			background-color: #ccffcc;
+			margin: 0px 50px 0px 50px;
+			text-align: center;
+			}
+			#reldiv2 {
+			z-index: 2;
+			height: 100px;
+			position: relative;
+			top: 15px;
+			left: 20px;
+			border: 1px dashed #669966;
+			background-color: #ccffcc;
+			margin: 0px 50px 0px 50px;
+			text-align: center;
+			}
+			#absdiv1 {
+			z-index: 5;
+			position: absolute;
+			width: 150px;
+			height: 350px;
+			top: 10px;
+			left: 10px;
+			border: 1px dashed #990000;
+			background-color: #ffdddd;
+			text-align: center;
+			}
+			#absdiv2 {
+			z-index: 1;
+			position: absolute;
+			width: 150px;
+			height: 350px;
+			top: 10px;
+			right: 10px;
+			border: 1px dashed #990000;
+			background-color: #ffdddd;
+			text-align: center;
+			}
+		</style>
+	</head>
+	<body text="#222222" bgcolor="#FFFFF">
+		<div id="contenu">  <!-- description : -->
+			<header><hgroup><h1>TITRE</h1><h2>SOUS-TITRE</h2></hgroup></header>
+			<nav> <menu> <a href="#">Lien</a> | <a href="#">Lien</a> </menu> </nav>
+			<aside> <menu> <a href="#">Lien</a> | <a href="#">Lien</a> </menu> </aside>
+			<section>
+				<article>
+					<header><h1> TITRE : PAGE </h1></header>
+					
+
+					<h1>Les DIV et SPAN : < DIV > < SPAN > </h1>
+					<a id="hautdepage" name="hautdepage"> </a>
+					<br/>
+					<br/>
+					<br/>
+							
+					<div id="absdiv1">
+						<br/><span class="bold">div #1</span>
+						<br />position: absolute;
+						<br/>z-index: 5;
+					</div>
+					<div id="reldiv1">
+						<br/><span class="bold">div #2</span>
+						<br/>position: relative;
+						<br/>z-index: 3;
+					</div>
+					<div id="reldiv2">
+						<br/><span class="bold">div #3</span>
+						<br/>position: relative;
+						<br/>z-index: 2;
+					</div>
+					<div id="absdiv2">
+						<br/><span class="bold">div #4</span>
+						<br/>position: absolute;
+						<br/>z-index: 1;
+					</div>
+					<div id="normdiv">
+						<br/><span class="bold">div #5</span>
+						<br/>no positioning
+						<br/>z-index: 8;
+					</div>
+					<br/>
+					<br/>
+					<br/>
+					<h1>TITRE : différence entre les DIV et les SPAN </h1>
+					<br/>
+					<br/>
+					<br/>
+					Exemple significatif de la différence entre les DIV et les SPAN 
+					
+					<br/>
+					<br/>
+					<br/>
+					<div> balise DIV </div> <span> balise SPAN </span> <span> balise SPAN </span>
+
+					<br/>
+					<br/>
+					<br/>
+					<div> un DIV </div>	<div> deux DIV </div><div> trois DIV </div>
+					<span> un SPAN </span>
+					<span> deux SPAN </span>
+					<span> trois SPAN </span>
+
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+
+					<h2>Utilisation de DIV et de SPAN pour faire un tableau</h2>
+					Prenons le tableau utilisant les balises table, ci dessous
+
+					<br/>
+					<br/>
+					<br/>
+
+					<table border="1px">
+						<caption> Tableau1 </caption>
+						<tr><td>1er colonne</td><td>2e colonne</td></tr>
+						<tr><td>1er colonne</td><td>2e colonne</td></tr>
+						<tr><td>1er colonne</td><td>2e colonne</td></tr>
+					</table>
+
+					<br/>
+					<br/>
+					<br/>
+
+					Transformons-le avec des DIV et des SPAN :
+
+					<br/>
+					<br/>
+					<br/>
+
+					<div style="border:1px solid black;">
+						<div  style="border:1px solid red;">Tableau2 </div>
+						<div style="border:1px solid red;"><span>1er colonne</span><span>2e colonne</span></div>
+						<div style="border:1px solid red;"><span>1er colonne</span><span>2e colonne</span></div>
+						<div style="border:1px solid red;"><span>1er colonne</span><span>2e colonne</span></div>
+					</div>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+
+					<h2>Utilisation de DIV et de SPAN ave un style CSS et les proprietes display et visibility</h2>
+
+					<br/>
+					<br/>
+					<br/>
+
+
+					<h2> Exemple de DIV :</h2>
+
+					<br/>
+					<br/>
+					<br/>
+
+					<div> Ligne1 : Ceci est un DIV normal </div>
+					<div style="visibility:hidden;"> Ligne2: DIV avec visibility: hidden </div>
+					<div> Ligne3 : Ceci est un DIV normal </div>
+					<div style="display:none;"> Ligne4 : Ceci est un DIV avec display: none </div>
+					<div> Ligne5 : Ceci est un DIV normal </div>
+					<div> Ligne6 : Ceci est un DIV normal </div>
+					<div> Ligne7 : Ceci est un DIV normal </div>
+					<div> Ligne8 : Ceci est un DIV normal </div>
+					<div> Ligne9 : Ceci est un DIV normal </div>
+					<div> Ligne10 : Ceci est un DIV normal </div>
+					<div style="display:inline;"> Ligne11 : Ceci est un DIV avec display: inline </div>
+					<div style="display:inline;"> Ligne12 : Ceci est un DIV avec display: inline </div>
+					<div> Ligne13 : Ceci est un DIV normal </div>
+					<div> Ligne14 : Ceci est un DIV normal </div>
+
+					<br/>
+					<br/>
+					<br/>
+
+
+					<h2> Exemple de SPAN :</h2>
+
+					<br/>
+					<br/>
+					<br/>
+
+					<span> Ligne1 : Ceci est un SPAN normal </span>
+					<span> Ligne2 : Ceci est un SPAN normal </span>
+					<span style="display: block;"> Ligne3 : Ceci est un SPAN avec display: bloc </span>
+					<span style="display: block;"> Ligne4 : Ceci est un SPAN avec display: bloc </span>
+					<span> Ligne5 : Ceci est un SPAN normal </span>
+					<span> Ligne6 : Ceci est un SPAN normal </span>
+					<span> Ligne7 : Ceci est un SPAN normal </span>
+					<br/>
+					<br/>
+					<br/>
+
+					
+					
+					<footer><h3> Nom de l'auteur,  Date </h3></footer>
+				</article>
+			</section>
+			<footer><p> Nom, Adresse, Code, Ville, Telephone, Mail </p></footer>
+		</div>
+	</body>
+</html>

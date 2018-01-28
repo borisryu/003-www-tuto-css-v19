@@ -1,0 +1,31 @@
+﻿
+	/* auteur : */
+	/* date de creation : */
+	/* auteur de la modification : */
+	/* date de modification : */
+
+@charset "UTF-8";
+
+body { 
+	background-color:#4BB5C1; 
+	text-align:center; 
+	color:blue; 
+}
+
+h1 {color:navy; border: 5px solid green; }
+h2 {color:navy; font-family:Arial;}
+h3 {color:navy; font-family:verdana,Arial; font-size:30px;}
+
+/*
+	p {color:cyan;}
+	strong{color:cyan;}
+	em {color:cyan;}
+*/
+p, strong, em {color:cyan;}
+
+div {color:purple;}			
+
+
+h1 {color:red;}
+
+

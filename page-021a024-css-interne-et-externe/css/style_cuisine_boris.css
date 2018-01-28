@@ -1,0 +1,19 @@
+
+/* selecteur {propriete:valeur;} */
+
+
+
+h1 {color:green; font-size:10px;}
+h2 {color:yellow; font-family:Arial;font-size:20px;}
+h3 {color:purple; font-family:verdana,Arial; font-size:30px;}
+h1 {color:blue; font-family:Arial;}
+
+
+strong, em {color:cyan;}
+
+p {color:red;}
+
+.ClassParagBlue {color:blue;}  /* classe = groupe */
+
+#IdParagJaune {color:Yellow;}  /* id = unique par page */
+

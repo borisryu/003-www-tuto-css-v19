@@ -1,0 +1,113 @@
+﻿/* 
+	Commentaire CSS
+	
+	Nom du projet :
+	Description :  
+	Nom de l'auteur : 
+	Date de creation : 
+	Nom du dernier modificateur : 
+	Date de modification : 
+	Version :
+
+*/
+
+body { 
+	background-color:#4BB5C1; 
+	text-align:center; 
+	color:blue;
+	
+	width:960px;        /* pour centrer */
+	margin: 0px auto;   /* pour centrer */
+
+}
+
+/*
+h1 {color:green;}
+h1 {font-family:Arial;}
+
+a:hover { color: green; }                               
+a:active { background-color: yellow; }               
+a:visited { background-color: pink; color: purple;}        
+
+h2 {color:yellow; font-family:Arial;}
+h3 {color:purple; font-family:verdana,Arial; font-size:30px;}
+
+p {
+	background-color:#112233;
+	
+	color : #ffffff;
+	font-size : 1em;
+	font-family:verdana,arial,serif;
+	text-decoration : none;
+
+	width:800px;
+	
+	margin:50px;
+	padding: 20px 40px 20px 40px ;
+	border: 10px solid #0000FF;
+}
+
+img {
+	display:block;
+	
+	width:200px;
+	height:200px;
+	margin:50px;
+	padding: 0px ;
+	border: 10px solid #0000FF;
+}
+
+
+.cle1 {
+	color : #ff0000;
+	font-size : 1em;
+	list-style: square inside url("sqpurple.gif");
+}
+
+
+.poisson {
+	list-style: katakana inside url("http://cabanedelaleque.com/wp-content/uploads/2012/11/puce-fleur.jpg123");
+}
+
+*/
+
+#legende1 {
+	display:block;
+	/* display:inline; */
+	width:1000px;
+	margin:50px;
+	padding: 0px ;
+	border: 10px solid #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
